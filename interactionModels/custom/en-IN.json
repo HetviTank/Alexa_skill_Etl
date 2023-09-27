@@ -1,0 +1,61 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "slotty",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "passwordIntent",
+          "samples": [
+            "add my word {slotty}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "hack",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "name": "openaiIntent",
+          "samples": [
+            " {hack}"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "load data now"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "jacob tyson"
+    }
+  }
+}
